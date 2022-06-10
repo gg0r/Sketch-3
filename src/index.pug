@@ -1,13 +1,22 @@
-include pug/libs/_libs
-
 doctype html
-html(lang='en')
-    include pug/_head
-    body
-        .container
-            h1 Hello from Webpack
-            h2.container__subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ipsam!
-            +image('angular')
-            +image('webpack')
-            .block
-            .user
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Designer Portfolio
+    body 
+    header 
+        div.container
+            div.navigation-block
+                div.left-block-header
+                    div.name DAMADAMS
+                div.right-block-header
+                    nav.navigation
+                        ul.navigation-list
+                            li Home 
+                            li About 
+                            li Latest Works
+                            li Testimonials 
+                            li Contact
+    main             
