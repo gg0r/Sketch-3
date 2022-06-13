@@ -22,6 +22,7 @@ header {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
     display: flex;
     align-items: center;
+    margin-bottom: 36px;
 }
 
 .name {
@@ -75,6 +76,11 @@ header {
     margin-bottom: 16px;
 }
 
+.second-block {
+    display: flex;
+    justify-content: space-between;
+}
+
 .left-block-second {
     width: 513px;
     height: 713px;
@@ -98,7 +104,22 @@ header {
     font-size: 20px;
 }
 
-.picture-block {
+.background-block {
     background-image: url(../images/triangle.png);
     background-size: 100%;
+    width: 621px;
+    height: 692px;
+    background-repeat: no-repeat;
+}
+
+.right-block-second {
+    width: 497px;
+}
+
+.picture-block {
+    background-image: url(../images/Rectangle394.png);
+    width: 460px;
+    height: 605px;
+    background-repeat: no-repeat;
+    background-position: 27px 64px;
 }
