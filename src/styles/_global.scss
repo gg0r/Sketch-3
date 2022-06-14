@@ -143,10 +143,6 @@ header {
     padding-top: 36px;
 }
 
-.middle {
-    height: 561px;
-}
-
 .right-side-middle {
     padding-top: 262px;
 }
@@ -170,7 +166,8 @@ header {
 
 .block-middle-section {
     display: flex;
-    column-gap: 173px;
+    justify-content: space-between;
+    width: 1189px;
 }
 
 .middle-text-block p {
