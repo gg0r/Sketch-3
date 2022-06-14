@@ -17,12 +17,8 @@ footer {
 }
 
 header {
-    height: 100px;
     background: #FB3F5C;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
-    display: flex;
-    align-items: center;
-    margin-bottom: 36px;
 }
 
 .name {
@@ -47,6 +43,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 
 .left-block-header {
@@ -100,8 +97,10 @@ header {
     color: #F8EEEF;
     border: none;
     width: 223px;
-    height: 60px;
+    height: 65px;
     font-size: 20px;
+    border-color: #FB3F5C;
+    border-style: solid;
 }
 
 .background-block {
@@ -122,4 +121,92 @@ header {
     height: 605px;
     background-repeat: no-repeat;
     background-position: 27px 64px;
+}
+
+.middle-background-pic {
+    background-image: url(../images/triangle2.png);
+    width: 400px;
+    height: 482px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 22px 70px;
+}
+
+.middle-photo {
+    background-image: url(..//images/Rectangle397.png);
+    width: 361px;
+    height: 452px;
+    background-repeat: no-repeat;
+}
+
+.first-section {
+    padding-top: 36px;
+}
+
+.middle {
+    height: 561px;
+}
+
+.right-side-middle {
+    padding-top: 262px;
+}
+
+.middle-text-block h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    text-transform: capitalize;
+    color: #191018;
+    width: 513px;
+}
+
+.middle-text-title {
+    margin-bottom: 16px;
+}
+
+.middle-text-block {
+    padding-top: 222px;
+}
+
+.block-middle-section {
+    display: flex;
+    column-gap: 173px;
+}
+
+.middle-text-block p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    width: 597px;
+    margin-bottom: 48px;
+}
+
+.pink-button {
+    background: #FB3F5C;
+    border-radius: 18px;
+    color: #F8EEEF;
+    border: none;
+    width: 223px;
+    height: 65px;
+    font-size: 20px;
+    border-color: #FB3F5C;
+    border-style: solid;
+}
+
+.white-button {
+    background: white;
+    border-radius: 18px;
+    color: #FB3F5C;
+    border: none;
+    width: 223px;
+    height: 65px;
+    font-size: 20px;
+    border-color: #FB3F5C;
+    border-style: solid;
+}
+
+.buttons-middle {
+    display: flex;
+    column-gap: 10px;
 }
