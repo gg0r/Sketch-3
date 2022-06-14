@@ -143,11 +143,11 @@ header {
     padding-top: 36px;
 }
 
-.right-side-middle {
+.left-side-middle {
     padding-top: 262px;
 }
 
-.middle-text-block h1 {
+.right-middle-text-block h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 65px;
@@ -156,11 +156,11 @@ header {
     width: 513px;
 }
 
-.middle-text-title {
+.right-middle-text-title {
     margin-bottom: 16px;
 }
 
-.middle-text-block {
+.right-middle-text-block {
     padding-top: 222px;
 }
 
@@ -170,7 +170,7 @@ header {
     width: 1189px;
 }
 
-.middle-text-block p {
+.right-middle-text-block p {
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
@@ -206,4 +206,9 @@ header {
 .buttons-middle {
     display: flex;
     column-gap: 10px;
+}
+
+.photoshop {
+    width: 39px;
+    height: 38px;
 }
